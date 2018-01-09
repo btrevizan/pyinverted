@@ -1,4 +1,6 @@
 # pyinverted
+[![docs](https://readthedocs.org/projects/pyinverted/badge/?version=latest)](http://pyinverted.readthedocs.io/en/latest/?badge=latest)
+
 *pyinverted* implements a class for inverted files creation and managing.
 
 First, the class creates/opens a file `.dict`. This file has the inverted file
