@@ -187,6 +187,16 @@ class Inverted():
         values += [-1] * (self.__n - len(values))   # fill with -1
         self.__file.write(i, values)                # save on-disk
 
+    def __repr__(self):
+        """Class representation string."""
+        return "{}({}, {})".format(self.__class__.__name__,
+                                   self.__filename,
+                                   self.__n)
+
+    def __str__(self):
+        """Return a str(dict) of self.dict."""
+        return str(self.__dict)
+
     def __del__(self):
         file = open(self.__filename + '.dict', 'wb')  # open file
         pickle.dump(self.__dict, file)                # save content
