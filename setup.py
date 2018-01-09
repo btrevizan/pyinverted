@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     name='pyinverted',
     packages=['pyinverted'],
-    version='0.1',
+    version='0.1.2',
     description='A inverted files implementation in Python 3.',
     author='Bernardo Trevizan',
     author_email='trevizanbernardo@gmail.com',
